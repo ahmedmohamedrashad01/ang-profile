@@ -1,0 +1,40 @@
+.mr {
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 300px) {
+  .btn-icon {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .btn-icon {
+    display: none;
+  }
+}
+
+.main-nav {
+  /* Created with https://www.css-gradient.com */
+  background: #3a95e1;
+  background: -webkit-linear-gradient(right, #3a95e1, #010101);
+  background: -moz-linear-gradient(right, #3a95e1, #010101);
+  background: linear-gradient(to left, #3a95e1, #010101);
+}
+
+::ng-deep .custom-menu {
+  background: #3a95e1;
+  background: -webkit-linear-gradient(right, #3a95e1, #010101);
+  background: -moz-linear-gradient(right, #3a95e1, #010101);
+  background: linear-gradient(to left, #3a95e1, #010101);
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.myname {
+  text-shadow: 3px 1px 0px rgb(18 134 205);
+  font-size: 25px;
+}

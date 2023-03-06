@@ -1,0 +1,71 @@
+.work-des {
+  margin-top: 10px;
+  /* font-size: 25px; */
+  font-weight: bolder;
+  color: #29699f;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0.8;
+}
+
+.harvard-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: auto;
+
+}
+.harvard-logo img {
+  width: 100%;
+  height: 101px;
+  box-shadow: -1px 1px 3px 1px #7f16064f;
+  padding: 7px;
+}
+
+/* .zoo{
+  width: 90%;
+  margin: auto;
+
+
+} */
+
+::ng-deep .ngxImageZoomContainer{
+  width: 90% !important;
+  height: 600px;
+  margin: auto !important;
+  object-fit: fill !important;
+
+}
+
+::ng-deep .ngxImageZoomThumbnail{
+  width: 100% !important;
+  height: 100%;
+  object-fit: fill;
+
+}
+::ng-deep .ngxImageZoomContainer > img{
+
+}
+
+@media screen and (min-width: 300px) {
+  ::ng-deep .ngxImageZoomContainer{
+    width: 100% !important;
+    height: 400px !important;
+    margin: auto !important;
+    object-fit: fill !important;
+
+  }
+}
+
+@media screen and (min-width: 767px) {
+  ::ng-deep .ngxImageZoomContainer{
+    width: 90% !important;
+    height: 600px !important;
+    margin: auto !important;
+
+  }
+}
+
+
+

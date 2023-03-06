@@ -1,0 +1,80 @@
+.work-des {
+  margin-top: 10px;
+  /*font-size: 25px;
+    */
+  font-weight: 500;
+  color: #29699fe3;
+  text-align: justify;
+  text-justify: inter-word;
+  vertical-align: middle;
+  text-transform: capitalize;
+  opacity: 0.8;
+  padding: 5px;
+  line-height: 35px;
+}
+
+.harvard-logo {
+  text-align: center;
+  width: 70%;
+  height: 300px;
+  margin: auto;
+}
+.harvard-logo img {
+  width: 100%;
+  height: 100%;
+  box-shadow: -1px 1px 3px 1px #06577f4f;
+  padding: 2px;
+  object-fit: fill;
+  border-radius: 32px 35px 1px 69px;
+  -moz-border-radius: 32px 35px 1px 69px;
+  -webkit-border-radius: 32px 35px 1px 69px;
+  border: 1.8px solid #368AD0;
+  -ms-border-radius: 32px 35px 1px 69px;
+  -o-border-radius: 32px 35px 1px 69px;
+}
+.contact-us {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contact-us div {
+  padding: 5px;
+  box-shadow: 0 0 0 0 red;
+}
+.contact-us div a {
+  text-decoration: none;
+  vertical-align: middle;
+  border-radius: 3px;
+  /* background-color: red; */
+  position: relative;
+}
+.contact-us div a::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  border-radius: 5px;
+  background-color: #448ecc;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.contact-us div a:hover::before {
+  width: 100%;
+}
+
+.contact-us div a mat-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  color: #307ab9;
+  /* vertical-align: middle; */
+}
